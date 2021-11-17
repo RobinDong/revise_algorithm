@@ -24,7 +24,7 @@ def init_matrix(sequence, nr_partitions, M, sum_array):
 
 if __name__ == "__main__":
     # The sequence and the number of partitions
-    sequence = [1, 2, 3, 4, 5, 6]
+    sequence = [9, 8, 7, 1, 2, 3, 4, 5, 6]
     partitions = 3
     # init
     M = np.zeros((len(sequence) + 1, partitions + 1), dtype=int)
